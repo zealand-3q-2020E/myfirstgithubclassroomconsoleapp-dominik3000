@@ -16,7 +16,7 @@ namespace MyFirstGitHubClassRoomConsoleApp
             ProgrammingClassDemo.ClassName = "Programming";
             ProgrammingClassDemo.TeacherName = "Martin";
 
-            Console.WriteLine($"I'm sitting on a {ProgrammingClassDemo.TeacherName} class. The lecturer is {ProgrammingClassDemo.TeacherName} ");
+            Console.WriteLine($"I'm sitting on a {ProgrammingClassDemo.ClassName} class. The lecturer is {ProgrammingClassDemo.TeacherName}. ");
             Console.ReadKey();
         }
     }
